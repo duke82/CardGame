@@ -13,6 +13,11 @@
 		D69C5E211A175274003FB5C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69C5E201A175274003FB5C8 /* Images.xcassets */; };
 		D69C5E241A175274003FB5C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D69C5E221A175274003FB5C8 /* LaunchScreen.xib */; };
 		D69C5E301A175275003FB5C8 /* CardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69C5E2F1A175275003FB5C8 /* CardGameTests.swift */; };
+		D69C5E3E1A1755C2003FB5C8 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = D69C5E3D1A1755C2003FB5C8 /* Card.m */; };
+		D69C5E411A1B0189003FB5C8 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = D69C5E401A1B0189003FB5C8 /* Deck.m */; };
+		D69C5E441A1B068E003FB5C8 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D69C5E431A1B068E003FB5C8 /* PlayingCard.m */; };
+		D69C5E4B1A1B0D52003FB5C8 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = D69C5E4A1A1B0D52003FB5C8 /* PlayingCardDeck.m */; };
+		D69C5E4C1A1B0D52003FB5C8 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = D69C5E4A1A1B0D52003FB5C8 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,21 @@
 		D69C5E141A175274003FB5C8 /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69C5E181A175274003FB5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D69C5E191A175274003FB5C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D69C5E1B1A175274003FB5C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D69C5E1B1A175274003FB5C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
 		D69C5E1E1A175274003FB5C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D69C5E201A175274003FB5C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D69C5E231A175274003FB5C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D69C5E291A175275003FB5C8 /* CardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69C5E2E1A175275003FB5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D69C5E2F1A175275003FB5C8 /* CardGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameTests.swift; sourceTree = "<group>"; };
+		D69C5E3C1A1755C2003FB5C8 /* CardGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CardGame-Bridging-Header.h"; path = "Models/CardGame-Bridging-Header.h"; sourceTree = "<group>"; };
+		D69C5E3D1A1755C2003FB5C8 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Models/Card.m; sourceTree = "<group>"; };
+		D69C5E401A1B0189003FB5C8 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Models/Deck.m; sourceTree = "<group>"; };
+		D69C5E421A1B0203003FB5C8 /* Deck-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Deck-Bridging-Header.h"; path = "Models/Deck-Bridging-Header.h"; sourceTree = "<group>"; };
+		D69C5E431A1B068E003FB5C8 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Models/PlayingCard.m; sourceTree = "<group>"; };
+		D69C5E451A1B06B8003FB5C8 /* PlayingCard-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PlayingCard-Bridging-Header.h"; path = "Models/PlayingCard-Bridging-Header.h"; sourceTree = "<group>"; };
+		D69C5E4A1A1B0D52003FB5C8 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Models/PlayingCardDeck.m; sourceTree = "<group>"; };
+		D69C5E4D1A1B0D77003FB5C8 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Models/PlayingCardDeck.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +90,11 @@
 		D69C5E161A175274003FB5C8 /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
-				D69C5E191A175274003FB5C8 /* AppDelegate.swift */,
-				D69C5E1B1A175274003FB5C8 /* ViewController.swift */,
 				D69C5E1D1A175274003FB5C8 /* Main.storyboard */,
+				D69C5E3B1A1753B7003FB5C8 /* Controllers */,
+				D69C5E3A1A1753A9003FB5C8 /* Views */,
+				D69C5E391A17538B003FB5C8 /* Models */,
+				D69C5E191A175274003FB5C8 /* AppDelegate.swift */,
 				D69C5E201A175274003FB5C8 /* Images.xcassets */,
 				D69C5E221A175274003FB5C8 /* LaunchScreen.xib */,
 				D69C5E171A175274003FB5C8 /* Supporting Files */,
@@ -110,6 +125,36 @@
 				D69C5E2E1A175275003FB5C8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D69C5E391A17538B003FB5C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D69C5E3D1A1755C2003FB5C8 /* Card.m */,
+				D69C5E3C1A1755C2003FB5C8 /* CardGame-Bridging-Header.h */,
+				D69C5E401A1B0189003FB5C8 /* Deck.m */,
+				D69C5E421A1B0203003FB5C8 /* Deck-Bridging-Header.h */,
+				D69C5E431A1B068E003FB5C8 /* PlayingCard.m */,
+				D69C5E451A1B06B8003FB5C8 /* PlayingCard-Bridging-Header.h */,
+				D69C5E4A1A1B0D52003FB5C8 /* PlayingCardDeck.m */,
+				D69C5E4D1A1B0D77003FB5C8 /* PlayingCardDeck.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D69C5E3A1A1753A9003FB5C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D69C5E3B1A1753B7003FB5C8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D69C5E1B1A175274003FB5C8 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +257,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69C5E411A1B0189003FB5C8 /* Deck.m in Sources */,
+				D69C5E4B1A1B0D52003FB5C8 /* PlayingCardDeck.m in Sources */,
 				D69C5E1C1A175274003FB5C8 /* ViewController.swift in Sources */,
 				D69C5E1A1A175274003FB5C8 /* AppDelegate.swift in Sources */,
+				D69C5E441A1B068E003FB5C8 /* PlayingCard.m in Sources */,
+				D69C5E3E1A1755C2003FB5C8 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D69C5E301A175275003FB5C8 /* CardGameTests.swift in Sources */,
+				D69C5E4C1A1B0D52003FB5C8 /* PlayingCardDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +386,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CardGame/Models/CardGame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +399,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CardGame/Models/CardGame-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -356,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,6 +423,8 @@
 				INFOPLIST_FILE = CardGameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CardGame/CardGameTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardGame.app/CardGame";
 			};
 			name = Debug;
@@ -375,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -382,6 +441,7 @@
 				INFOPLIST_FILE = CardGameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CardGame/CardGameTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardGame.app/CardGame";
 			};
 			name = Release;
@@ -405,6 +465,7 @@
 				D69C5E351A175275003FB5C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D69C5E361A175275003FB5C8 /* Build configuration list for PBXNativeTarget "CardGameTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +474,7 @@
 				D69C5E381A175275003FB5C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
